@@ -1,5 +1,6 @@
-
-var rn1=Math.random();
+var e=document.querySelector(".d");
+e.addEventListener("click",function(){
+     var rn1=Math.random();
       rn1=Math.floor(rn1*6+1);
       var a=document.querySelector(".img1");
       switch(rn1)
@@ -68,6 +69,6 @@ var rn1=Math.random();
       {
         c.innerHTML="match draw!!!";
       }
-        
+});    
        
       
